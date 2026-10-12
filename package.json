@@ -1,0 +1,10 @@
+{
+  "name": "futbol-duello",
+  "private": true,
+  "type": "module",
+  "workspaces": ["shared", "server", "web"],
+  "scripts": {
+    "dev": "npm run dev -w server & npm run dev -w web",
+    "test": "npm test -w server"
+  }
+}
